@@ -27,6 +27,7 @@
       --muted:#6d6a66;
       --accent:#b96855;
       --line:#ded5c8;
+    }
 
     *{box-sizing:border-box}
 
@@ -77,9 +78,7 @@
       color:var(--ink);
     }
 
-    .nav a:hover{
-      text-decoration:underline;
-    }
+    .nav a:hover{text-decoration:underline}
 
     .hero{
       display:grid;
@@ -88,14 +87,12 @@
       align-items:center;
       max-width:1040px;
       margin:0 auto;
-      padding:58px 0 70px;
+      padding:42px 0 38px;
     }
 
     .hero img{
       width:100%;
       height:auto;
-      object-fit:cover;
-      object-position:center center;
       display:block;
       border-radius:13px;
       box-shadow:0 14px 36px rgba(38,55,74,.10);
@@ -173,56 +170,49 @@
       margin-bottom:0;
     }
 
-    .networking{
-      display:grid;
-      grid-template-columns:1fr 1.45fr;
-gap:40px;
-    align-items:start;
-    margin-top:18px;
-    }
-
-    .networking img{
-      width:280px;
-      height:auto;
-      object-fit:contain;
-      display:block;
-      border-radius:13px;
-      box-shadow:0 14px 36px rgba(38,55,74,.08);
-       justify-self:center;
-
-      .insight-grid{
-  display:grid;
-  grid-template-columns:minmax(0,1fr) 240px;
-  gap:48px;
-  align-items:center;
-}
-
-.networking-photo{
-  display:flex;
-  justify-content:flex-end;
-  align-items:center;
-}
-
-.networking-photo img{
-  width:220px;
-  max-width:220px;
-  height:auto;
-  display:block;
-  border-radius:13px;
-  box-shadow:0 14px 30px rgba(38,55,74,.08);
-
     .quote{
       font-family:Georgia,"Times New Roman",serif;
-      font-size:30px;
+      font-size:30px !important;
       line-height:1.3;
       color:var(--ink);
-      margin:0 0 18px;
+      margin:22px 0 !important;
     }
 
+    /* Organizational Insight */
+    .insight-section{
+      padding-top:18px;
+      padding-bottom:18px;
+    }
+
+    .insight-grid{
+      display:grid;
+      grid-template-columns:320px minmax(0,1fr);
+      gap:54px;
+      align-items:start;
+    }
+
+    .insight-left h2{
+      margin-bottom:22px;
+    }
+
+    .insight-photo{
+      width:220px;
+      height:auto;
+      display:block;
+      margin:0 auto;
+      border-radius:13px;
+      box-shadow:0 14px 30px rgba(38,55,74,.08);
+    }
+
+    .insight-copy{
+      padding-top:0;
+    }
+
+    /* Connect */
     .connect{
       background:var(--ink);
       color:white;
-      padding:50px 0;
+      padding:30px 0;
     }
 
     .connect .row{
@@ -235,7 +225,7 @@ gap:40px;
     .connect h2{
       color:white;
       font-size:36px;
-      margin:0 0 6px;
+      margin:0 0 4px;
     }
 
     .connect p{
@@ -261,14 +251,14 @@ gap:40px;
     }
 
     footer{
-      padding:18px 0 28px;
+      padding:14px 0 20px;
       color:#8a847d;
       font-size:12px;
       text-align:center;
       background:var(--ink);
     }
 
-    @media(max-width:700px){
+    @media(max-width:840px){
       .wrap{padding:0 20px}
 
       .topbar{
@@ -278,25 +268,23 @@ gap:40px;
 
       .hero,
       .section-grid,
-      .networking{
+      .insight-grid{
         grid-template-columns:1fr;
       }
 
       .hero{
-        gap:34px;
-        padding:36px 0 50px;
-      }
-
-      .hero img,
-      .networking img{
-        height:auto;
-        max-height:620px;
+        gap:30px;
+        padding:32px 0 36px;
       }
 
       h1{font-size:46px}
 
       .section{
-        padding:52px 0;
+        padding:28px 0;
+      }
+
+      .insight-photo{
+        margin:0;
       }
 
       .connect .row{
@@ -304,10 +292,7 @@ gap:40px;
         align-items:flex-start;
       }
     }
-  .insight-section {
-  padding-top: 6px;
-}
-      </style>
+  </style>
 
   <script type="application/ld+json">
   {
@@ -352,22 +337,26 @@ gap:40px;
         <img
           src="jodi-bragg-communications-speaker.jpg"
           alt="Jodi Bragg, strategic communications consultant"
-          width="1490"
-          height="993"
         >
 
         <div>
           <div class="eyebrow">Experience</div>
-          <h1>Communications<br>
+
+          <h1>
+            Communications<br>
             built on experience<br>
-            —and insight.</h1>
+            —and insight.
+          </h1>
 
           <p class="intro">
             For more than 20 years, Jodi Bragg has worked across strategic communications,
             public relations, social media, influencer marketing, reputation management
             and organizational communications—helping brands turn complicated ideas
-            and challenges into messages people can act on and understand. Her perspective is informed by a natural curiosity in human behavior. Field experience and graduate-level coursework in organizational psychology and counseling have expanded the way she thinks about motivation, behavior, relationships and how people function within organizations.
-</p>
+            and challenges into messages people can act on and understand. Her perspective
+            is informed by a natural curiosity in human behavior. Field experience and
+            graduate-level coursework in organizational psychology and counseling have
+            expanded the way she thinks about motivation, behavior, relationships and
+            how people function within organizations.
           </p>
         </div>
 
@@ -457,7 +446,6 @@ gap:40px;
 
       <div>
         <div class="experience-block">
-
           <p>
             Jodi’s early career included work in government and public affairs, including serving as
             a Legislative Correspondent in the United States Senate and communications work connected
@@ -468,31 +456,32 @@ gap:40px;
             Her nonprofit and international communications experience has included organizations and
             initiatives focused on children with special needs, literacy, conservation and education.
           </p>
-
         </div>
       </div>
 
     </div>
   </section>
 
-<section class="section insight-section">
-  <div class="wrap">
-    <div style="display:grid; grid-template-columns:320px minmax(0,1fr); gap:48px; align-items:start;">
+  <section class="section insight-section">
+    <div class="wrap insight-grid">
 
-  <div>
-    <div class="eyebrow">Organizational Insight</div>
-    <h2>Seeing the system,<br>not just the message.</h2>
+      <div class="insight-left">
+        <div class="eyebrow">Organizational Insight</div>
 
-    <div class="networking-photo">
-      <img
-        src="jodi-bragg-communications-networking.jpg"
-        alt="Jodi Bragg discussing communications and organizational strategy"
-        loading="lazy"
-        style="width:220px !important; max-width:220px !important; height:auto !important;"
-      >
-    </div>
-  </div>
+        <h2>
+          Seeing the system,<br>
+          not just the message.
+        </h2>
 
+        <img
+          class="insight-photo"
+          src="jodi-bragg-communications-networking.jpg"
+          alt="Jodi Bragg discussing communications and organizational strategy"
+          loading="lazy"
+        >
+      </div>
+
+      <div class="insight-copy">
         <p>
           More recently, Jodi worked inside public education, including special education classrooms
           and school communities.
@@ -524,19 +513,10 @@ gap:40px;
         </p>
       </div>
 
-      <div class="networking-photo">
-        <img
-          src="jodi-bragg-communications-networking.jpg"
-          alt="Jodi Bragg discussing communications and organizational strategy"
-          loading="lazy"
-        style="width:220px !important; max-width:220px !important; height:auto !important;"
->
-      </div>
-      
- </div>
-  </div>
-</section>
-  <section class="connect" style="background:#243b53; color:white; padding:50px 0;">
+    </div>
+  </section>
+
+  <section class="connect">
     <div class="wrap row">
 
       <div>
