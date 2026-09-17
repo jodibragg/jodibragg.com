@@ -1,0 +1,386 @@
+fluence article page, with only the AI article content and metadata changed.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AI Governance Belongs in Communications — Not Just IT | Jodi Bragg</title>
+
+  <meta name="description" content="Jodi Bragg explores why AI governance belongs in communications as well as IT, and why human judgment remains essential to brand trust, reputation and accountability.">
+
+  <link rel="canonical" href="https://jodibragg.com/ai-governance-communications.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="AI Governance Belongs in Communications — Not Just IT">
+  <meta property="og:description" content="The question isn't whether your comms team is using AI. They already are. The question is who — or what — is governing your brand content.">
+  <meta property="og:url" content="https://jodibragg.com/ai-governance-communications.html">
+  <meta property="og:image" content="https://jodibragg.com/Jodi-Bragg-AI-governance.jpg">
+  <meta property="article:author" content="Jodi Bragg">
+  <meta property="article:published_time" content="2026-09-17">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Governance Belongs in Communications — Not Just IT">
+  <meta name="twitter:description" content="The question isn't whether your comms team is using AI. They already are. The question is who — or what — is governing your brand content.">
+  <meta name="twitter:image" content="https://jodibragg.com/Jodi-Bragg-AI-governance.jpg">
+
+  <style>
+    :root{
+      --ink:#171717;
+      --cream:#f8f4ee;
+      --white:#ffffff;
+      --accent:#b44f43;
+      --line:#ded8d0;
+      --muted:#69645f;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--ink);
+      background:var(--cream);
+      line-height:1.7;
+    }
+
+    .wrap{
+      width:min(1120px, 90%);
+      margin:auto;
+    }
+
+    header{
+      background:var(--cream);
+      border-bottom:1px solid var(--line);
+    }
+
+    .topbar{
+      min-height:82px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:30px;
+    }
+
+    .brand{
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:24px;
+      letter-spacing:.02em;
+      color:var(--ink);
+      text-decoration:none;
+    }
+
+    nav{
+      display:flex;
+      gap:22px;
+      font-size:14px;
+      flex-wrap:wrap;
+    }
+
+    nav a{
+      text-decoration:none;
+      color:var(--ink);
+    }
+
+    nav a:hover{
+      text-decoration:underline;
+    }
+
+    .article-hero{
+      padding:55px 0 35px;
+      text-align:center;
+    }
+
+    .eyebrow{
+      color:var(--accent);
+      text-transform:uppercase;
+      letter-spacing:.16em;
+      font-size:13px;
+      font-weight:700;
+      margin-bottom:12px;
+    }
+
+    h1{
+      font-family:Georgia, "Times New Roman", serif;
+      font-size:46px;
+      font-weight:500;
+      line-height:1.12;
+      max-width:900px;
+      margin:0 auto 18px;
+    }
+
+    .subhead{
+      max-width:760px;
+      margin:0 auto 15px;
+      font-family:Georgia, "Times New Roman", serif;
+      font-size:20px;
+      font-style:italic;
+      color:var(--muted);
+    }
+
+    .byline{
+      font-size:14px;
+      color:var(--muted);
+      margin-bottom:30px;
+    }
+
+    .hero-image{
+      width:100%;
+      max-width:650px;
+      display:block;
+      margin:32px auto 0;
+      border-radius:4px;
+    }
+
+    .article-section{
+      padding:35px 0 75px;
+    }
+
+    .article-body{
+      max-width:780px;
+      margin:auto;
+      background:var(--white);
+      border:1px solid var(--line);
+      padding:48px 55px;
+    }
+
+    .article-body p{
+      margin:0 0 22px;
+    }
+
+    .sources{
+      margin-top:50px;
+      padding-top:30px;
+      border-top:1px solid var(--line);
+    }
+
+    .sources h2{
+      font-family:Georgia, "Times New Roman", serif;
+      font-size:27px;
+      font-weight:500;
+      margin:0 0 20px;
+    }
+
+    .sources p{
+      margin:0 0 10px;
+      font-size:14px;
+    }
+
+    .sources a{
+      color:var(--ink);
+      text-decoration:none;
+      border-bottom:1px solid var(--accent);
+    }
+
+    .sources a:hover{
+      color:var(--accent);
+    }
+
+    footer{
+      border-top:1px solid var(--line);
+      padding:32px 0 36px;
+      text-align:center;
+    }
+
+    .footer-nav{
+      justify-content:center;
+      margin-bottom:20px;
+    }
+
+    .copyright{
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    @media (max-width:700px){
+      .topbar{
+        flex-direction:column;
+        justify-content:center;
+        padding:20px 0;
+      }
+
+      nav{
+        justify-content:center;
+        gap:16px;
+      }
+
+      h1{
+        font-size:36px;
+      }
+
+      .article-hero{
+        padding-top:40px;
+      }
+
+      .article-body{
+        padding:30px 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap topbar">
+    <a class="brand" href="index.html">Jodi Bragg</a>
+
+    <nav aria-label="Website navigation">
+      <a href="index.html">Home</a>
+      <a href="experience.html">Experience</a>
+      <a href="services.html">Services</a>
+      <a href="mailto:jodi@jodibragg.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="article-hero">
+    <div class="wrap">
+
+      <div class="eyebrow">AI Governance & Communications</div>
+
+      <h1>AI Governance Belongs in Communications — Not Just IT</h1>
+
+      <p class="subhead">
+        The question isn’t whether your comms team is using AI. They already are.
+        The question is who — or what — is governing your brand content.
+      </p>
+
+      <div class="byline">
+        By Jodi Bragg &nbsp;•&nbsp; Sept. 17, 2026
+      </div>
+
+      <img
+        class="hero-image"
+        src="Jodi-Bragg-AI-governance.jpg"
+        alt="Jodi Bragg on AI governance, communications and human judgment">
+    </div>
+  </section>
+
+  <section class="article-section">
+    <div class="wrap">
+      <article class="article-body">
+
+        <p>
+          In 2014, I was working with AT&amp;T when my client contact asked if I wanted to head up YouTube influencers. My response was, “Absolutely! …What’s a YouTube influencer?”
+        </p>
+
+        <p>
+          Fast forward a year, and I was well on my way to becoming an expert on how brands could use social media influencers as a marketing strategy. But along with the creative side of influencer marketing came something equally important: regulation and governance.
+        </p>
+
+        <p>
+          The Federal Trade Commission had long established rules governing endorsements and advertising, including its <em>Guides Concerning the Use of Endorsements and Testimonials in Advertising</em>. The governing principles were there, but the highly specific, practical guidance brands and creators now take for granted was still evolving.
+        </p>
+
+        <p>
+          Our company was paying influencers to integrate our products and services into their content. We didn’t script that content, and it didn’t live on brand-owned social channels. But that didn’t relieve us of responsibility for it. This new way of reaching audiences still fell squarely under the advertising umbrella.
+        </p>
+
+        <p>
+          The point of influencer marketing was building brand credibility and trust by reaching audiences through creators they already liked and trusted. Truth in advertising was paramount to respecting prospective and existing customers. That meant establishing clear, concise and consistent rules around disclosing the paid relationship. Plainly: don’t deceive people. Don’t hide the relationship. Don’t make something paid look like it isn’t.
+        </p>
+
+        <p>
+          A decade later, sponsored content is so commonplace that it’s difficult to scroll through any social platform without encountering it. As the industry matured, so did its governance.
+        </p>
+
+        <p>
+          Today, communications leaders are facing another technological shift: artificial intelligence. Once again, technology is moving faster than many organizations’ rules for using it. Marketing and communications teams can generate copy, images, social posts, customer responses and entire campaigns in seconds.
+        </p>
+
+        <p>
+          The question isn’t whether their teams will use AI. They already are. The question is whether anyone is governing how they use it — and who, or what, is governing what comes out.
+        </p>
+
+        <p>
+          The risks aren’t theoretical. In a 2025 IAB/Aymara survey of 125 U.S. advertising executives, more than 70% reported encountering an AI-related advertising incident, including AI generating false information, biased output or off-brand content, while fewer than 35% planned to increase investment in AI governance or brand-integrity oversight over the following year.
+        </p>
+
+        <p>
+          We’ve been here before. Social media didn’t eliminate the old rules of advertising. It created new circumstances in which organizations had to determine how those rules applied. Over time, regulators produced increasingly specific guidance, while brands developed their own processes for disclosures, approvals, content and accountability.
+        </p>
+
+        <p>
+          AI presents a similar challenge — but at mind-blowing speed and scale. AI-generated advertising remains subject largely to existing traditional advertising principles: claims must still be truthful, non-deceptive and appropriately substantiated whether the words were written by a person or generated by AI.
+        </p>
+
+        <p>
+          <strong>The law establishes the floor. Communications governance must address everything above it.</strong>
+        </p>
+
+        <p>
+          An AI-generated post can be perfectly legal and still be inaccurate, off-brand or tone deaf. It can rely on outdated information, repeat keywords multiple times, contradict an executive’s position, make unsupported product claims, respond terribly during a crisis or produce content no experienced communications professional would ever approve. And it can be published in an instant.
+        </p>
+
+        <p>
+          That’s why AI governance cannot belong exclusively to IT.
+        </p>
+
+        <p>
+          Communications professionals spend our careers thinking about questions technology alone cannot answer: What should we say? What shouldn’t we say? Who is authorized to speak for the organization? What requires review? What could damage trust? What could get us sued? And ultimately, who is accountable for the message? Those questions don’t disappear because a machine can now produce the words. They become more important.
+        </p>
+
+        <p>
+          Technology can generate the message, but it can’t assume responsibility for it. And that’s where we mere mortal humans become vitally important.
+        </p>
+
+        <section class="sources">
+          <h2>Sources</h2>
+
+          <p>
+            <a href="https://www.ftc.gov/news-events/news/press-releases/2009/10/ftc-publishes-final-guides-governing-endorsements-testimonials">
+              FTC — 2009 Endorsement Guides
+            </a>
+          </p>
+
+          <p>
+            <a href="https://search.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers">
+              FTC — Disclosures 101 for Social Media Influencers
+            </a>
+          </p>
+
+          <p>
+            <a href="https://www.ftc.gov/business-guidance/advertising-marketing">
+              FTC — Advertising and Marketing Basics
+            </a>
+          </p>
+
+          <p>
+            <a href="https://www.iab.com/insights/ai-adoption-is-surging-in-advertising-but-is-the-industry-prepared-for-responsible-ai/">
+              IAB — AI Adoption Is Surging in Advertising, but Is the Industry Prepared for Responsible AI?
+            </a>
+          </p>
+
+        </section>
+
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="experience.html">Experience</a>
+      <a href="services.html">Services</a>
+      <a href="mailto:jodi@jodibragg.com">Contact</a>
+    </nav>
+
+    <div class="copyright">
+      © 2026 Jodi Bragg • Messages that Matter
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
