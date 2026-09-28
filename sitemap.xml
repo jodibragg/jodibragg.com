@@ -3,17 +3,19 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
-    <loc>https://jodibragg.com/</loc><image:image>
-  <image:loc>https://jodibragg.com/jodi-bragg-communications-events.JPG</image:loc>
-</image:image>
+    <loc>https://jodibragg.com/</loc>
 
-<image:image>
-  <image:loc>https://jodibragg.com/jodi-bragg-client-communications.png</image:loc>
-</image:image>
+    <image:image>
+      <image:loc>https://jodibragg.com/jodi-bragg-communications-events.JPG</image:loc>
+    </image:image>
 
-<image:image>
-  <image:loc>https://jodibragg.com/jodi-bragg-communications-consultant.png</image:loc>
-</image:image>
+    <image:image>
+      <image:loc>https://jodibragg.com/jodi-bragg-client-communications.png</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://jodibragg.com/jodi-bragg-communications-consultant.png</image:loc>
+    </image:image>
   </url>
 
   <url>
@@ -24,15 +26,24 @@
     <loc>https://jodibragg.com/services.html</loc>
   </url>
 
-<url>
+  <url>
     <loc>https://jodibragg.com/insights.html</loc>
   </url>
 
-<url>
-    <loc>https://jodibragg.com/6-practical-principles-of-influence.html</loc>
+  <url>
+    <loc>https://jodibragg.com/when-everything-feels-important.html</loc>
+
+    <image:image>
+      <image:loc>https://jodibragg.com/Jodi-Bragg-Communications-Writer-Blog.jpg</image:loc>
+    </image:image>
   </url>
 
   <url>
     <loc>https://jodibragg.com/ai-governance-communications.html</loc>
   </url>
+
+  <url>
+    <loc>https://jodibragg.com/6-practical-principles-of-influence.html</loc>
+  </url>
+
 </urlset>
