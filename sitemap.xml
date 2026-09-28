@@ -32,8 +32,13 @@
 </url>
 
   <url>
-    <loc>https://jodibragg.com/insights.html</loc>
-  </url>
+  <loc>https://jodibragg.com/insights.html</loc>
+  <lastmod>2026-09-28</lastmod>
+
+  <image:image>
+    <image:loc>https://jodibragg.com/Jodi-Bragg-Industry-Insights.jpg</image:loc>
+  </image:image>
+</url>
 
   <url>
     <loc>https://jodibragg.com/when-everything-feels-important.html</loc>
