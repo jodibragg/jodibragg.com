@@ -52,10 +52,13 @@
     <loc>https://jodibragg.com/ai-governance-communications.html</loc>
   </url>
 
-  <url>
-    <loc>https://jodibragg.com/6-practical-principles-of-influence.html</loc>
-  </url>
-
+ <url>
+  <loc>https://jodibragg.com/6-practical-principles-of-influence.html</loc>
+  <image:image>
+    <image:loc>https://jodibragg.com/jodi-bragg-6-practical-principles-influence.jpg</image:loc>
+  </image:image>
+</url>
+        
   <url>
     <loc>https://jodibragg.com/the-nedlog-rule.html</loc>
     <lastmod>2026-09-30</lastmod>
