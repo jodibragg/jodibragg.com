@@ -14,8 +14,8 @@
     </image:image>
 
     <image:image>
-  <image:loc>https://jodibragg.com/Jodi-Bragg-Communications-Home-Office.jpg</image:loc>
-</image:image>
+      <image:loc>https://jodibragg.com/Jodi-Bragg-Communications-Home-Office.jpg</image:loc>
+    </image:image>
   </url>
 
   <url>
@@ -23,22 +23,45 @@
   </url>
 
   <url>
-  <loc>https://jodibragg.com/services.html</loc>
-  <lastmod>2026-09-28</lastmod>
+    <loc>https://jodibragg.com/work-with-me.html</loc>
+    <lastmod>2026-10-04</lastmod>
 
-  <image:image>
-    <image:loc>https://jodibragg.com/Jodi-Bragg-Communications-Consulting-Services.jpg</image:loc>
-  </image:image>
-</url>
+    <image:image>
+      <image:loc>https://jodibragg.com/Jodi-Bragg-Communications-Consulting-Services.jpg</image:loc>
+    </image:image>
+  </url>
 
   <url>
-  <loc>https://jodibragg.com/insights.html</loc>
-  <lastmod>2026-09-28</lastmod>
+    <loc>https://jodibragg.com/insights.html</loc>
+    <lastmod>2026-10-04</lastmod>
 
-  <image:image>
-    <image:loc>https://jodibragg.com/Jodi-Bragg-Industry-Insights.jpg</image:loc>
-  </image:image>
-</url>
+    <image:image>
+      <image:loc>https://jodibragg.com/Jodi-Bragg-Industry-Insights.jpg</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jodibragg.com/is-well-being-all-about-happiness.html</loc>
+    <lastmod>2026-10-04</lastmod>
+
+    <image:image>
+      <image:loc>https://jodibragg.com/jodi-bragg-raw-model-positive-psychology.jpg</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jodibragg.com/having-a-hard-time-working-with-others.html</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
+
+  <url>
+    <loc>https://jodibragg.com/the-nedlog-rule.html</loc>
+    <lastmod>2026-09-30</lastmod>
+
+    <image:image>
+      <image:loc>https://jodibragg.com/Jodi-Bragg-Nedlog-Rule.jpg</image:loc>
+    </image:image>
+  </url>
 
   <url>
     <loc>https://jodibragg.com/when-everything-feels-important.html</loc>
@@ -52,30 +75,11 @@
     <loc>https://jodibragg.com/ai-governance-communications.html</loc>
   </url>
 
- <url>
-  <loc>https://jodibragg.com/6-practical-principles-of-influence.html</loc>
-  <image:image>
-    <image:loc>https://jodibragg.com/jodi-bragg-6-practical-principles-influence.jpg</image:loc>
-  </image:image>
-</url>
-        
   <url>
-    <loc>https://jodibragg.com/the-nedlog-rule.html</loc>
-    <lastmod>2026-09-30</lastmod>
-    <image:image>
-      <image:loc>https://jodibragg.com/Jodi-Bragg-Nedlog-Rule.jpg</image:loc>
-    </image:image>
-  </url>
-         <url>
-    <loc>https://jodibragg.com/having-a-hard-time-working-with-others.html</loc>
-    <lastmod>2026-10-04</lastmod>
-  </url>
-
-         <url>
-    <loc>https://jodibragg.com/work-with-me.html</loc>
+    <loc>https://jodibragg.com/6-practical-principles-of-influence.html</loc>
 
     <image:image>
-      <image:loc>https://jodibragg.com/Jodi-Bragg-Communications-Consulting-Services.jpg</image:loc>
+      <image:loc>https://jodibragg.com/jodi-bragg-6-practical-principles-influence.jpg</image:loc>
     </image:image>
   </url>
 
